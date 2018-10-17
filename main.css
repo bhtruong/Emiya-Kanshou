@@ -1,0 +1,44 @@
+html {
+    background-color: violet;
+}
+
+body {
+    background-color: pink;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+header {
+    border: 3px solid black;
+    height: 5vh;
+    margin-bottom: 0.25rem;
+}
+
+footer {
+    border: 3px solid white;
+    height: 2vh;
+    margin-top: 0.25rem;
+}
+
+header, footer {
+    font-size: 2vw;
+}
+
+header, footer, #app {
+    width: 100%;
+}
+
+#app-container {
+    border: 3px solid purple;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+}
+
+#app {
+    border: 3px solid orange;
+    display: flex;
+}
